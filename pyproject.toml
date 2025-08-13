@@ -1,12 +1,12 @@
 [project]
 name = "django-plugin-browser-reload"
-version = "0.1.0"
+version = "0.1.1"
 description = "Django plugin wrapping django-browser-reload"
 readme = "README.md"
 authors = [{ name = "Joel Sleppy", email = "joel@sleppytech.com" }]
 license = { text = "Apache-2.0" }
 classifiers = ["License :: OSI Approved :: Apache Software License"]
-dependencies = ["django", "djp", "django-browser-reload==1.*"]
+dependencies = ["django", "djp>=0.3.1", "django-browser-reload==1.*"]
 
 [project.entry-points.djp]
 django_plugin_browser_reload = "django_plugin_browser_reload"
